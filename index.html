@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+          name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <title>Home page</title>
+<script src="https://v1.hitokoto.cn/?encode=js&select=%23hitokoto" defer></script>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        html, body {
+            width: 100%;
+            height: 100vh;
+            background: #282c34;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .btn-box {
+            width: 800px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        h1{
+		    color: white;
+			font-family: 楷体;
+		}
+
+        .box {
+            position: relative;
+            width: 250px;
+            height: 125px;
+            border-radius: 10px;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+            user-select: none;
+            margin: 5px;
+            box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .box:nth-of-type(1) {
+            background: linear-gradient(
+                    150deg,
+                    rgb(5, 141, 239),
+                    rgb(22, 175, 194)
+            );
+        }
+
+        .box:nth-of-type(2) {
+            background: linear-gradient(
+                    150deg,
+                    rgb(241, 43, 84),
+                    rgb(237, 11, 125)
+            );
+        }
+
+        .box:nth-of-type(3) {
+            background: linear-gradient(
+                    150deg,
+                    rgb(65, 182, 73),
+                    rgb(125, 195, 65)
+            );
+        }
+
+        .box:nth-of-type(4) {
+            background: linear-gradient(
+                    150deg,
+                    rgb(5, 141, 239),
+                    rgb(22, 175, 194)
+            );
+        }
+
+        .box:nth-of-type(5) {
+            background: linear-gradient(
+                    150deg,
+                    rgb(134, 0, 255),
+                    rgb(103, 0, 255)
+            );
+        }
+
+        .box:nth-of-type(6) {
+            background: linear-gradient(
+                    150deg,
+                    rgb(209, 11, 148),
+                    rgb(113, 52, 178)
+            );
+        }
+
+        .ripple {
+            display: block;
+            position: absolute;
+            border-radius: 100%;
+            background: rgba(255, 255, 255, 0.5);
+            transform: scale(0);
+        }
+
+
+        .animation {
+            animation: ripple 0.5s ease-in;
+        }
+
+        @keyframes ripple {
+            100% {
+                transform: scale(3);
+                opacity: 0;
+            }
+        }
+
+a , p{
+	font-family: 楷体;
+	color: white;
+}
+
+h2,h3{
+	font-family: 楷体;
+	color: red;
+}
+
+    </style>
+
+<h1>主页</h1>
+
+<a href="https://www.lanzoui.com/iZPC7g8svad"></a>
+<a href="https://kms.cangshui.net/"></a>
+<a href="https://01913.lanzoui.com/b01cv3d8j">20</a>
+
+<!--/head>
+<body oncontextmenu=self.event.returnValue=false onselectstart="return false">
+<script>window.alert("版本更新\n详见查询版本\n更新预告：\n资源中心\n查询版本")</script-->
+
+<div class="btn-box">
+<a href="/CS.html">
+    <div class="box">
+        <span class="ripple"></span>
+        <p>随机点名系统</p>
+    </div>
+</a>
+<a href="/djs.html">
+    <div class="box">
+        <span class="ripple"></span>
+        <p>倒计时</p>
+    </div>
+</a>
+<a href="/404.html">
+    <div class="box">
+        <span class="ripple"></span>
+        <p>资源中心</p>
+    </div>
+    </a>
+    <div class="box">
+        <span class="ripple"></span>
+        <p>    
+	<head>
+    <meta charset="UTF-8">
+    <script language="javascript">
+        var t = null;
+        t = setTimeout(time,1000);//开始执行
+        function time()
+        {
+            clearTimeout(t);//清除定时器
+            dt = new Date();
+            var y=dt.getYear()+1900;
+            var mm=dt.getMonth()+1;
+            var d=dt.getDate();
+            var weekday=["星期日","星期一","星期二","星期三","星期四","星期五","星期六"];
+            var day=dt.getDay();
+            var h=dt.getHours();
+            var m=dt.getMinutes();
+            var s=dt.getSeconds();
+            if(h<10){h="0"+h;}
+            if(m<10){m="0"+m;}
+            if(s<10){s="0"+s;}
+            document.getElementById("timeShow").innerHTML =  "现在的时间为："+y+"年"+mm+"月"+d+"日"+weekday[day]+""+h+":"+m+":"+s+"";
+            t = setTimeout(time,1000); //设定定时器，循环执行
+        }
+    </script>
+</head>
+<body>
+<div id="timeShow"></div>
+</body></p>
+    </div>
+<a href="/404.html">
+<div class="box">
+        <span class="ripple"></span>
+        <p>网站资源</p>
+    </div>
+</a>
+<!--button onclick="myFunction()"-->
+    <div class="box">
+        <span class="ripple"></span>
+		<p id="hitokoto"><a href="#" id="hitokoto_text">:D 获取中...</a></p>
+        <!--p>查询版本</p-->
+    </div>
+</button>
+</div>
+<audio src="https://bugjump7344.github.io/IFC.github.io/%E5%91%A8%E6%9D%B0%E4%BC%A6-%E6%99%B4%E5%A4%A9.mp3" controls="controls">
+</body>
+</html>

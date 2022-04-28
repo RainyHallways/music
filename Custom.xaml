@@ -36,7 +36,7 @@
         <local:MyHint Margin="0,8,0,2" IsWarn="False"
                    Text="若无法链接请更换DNS为&#xA;223.5.5.5或223.6.6.6" />
 		<local:MyButton Margin="0,20,23,0" Width="100" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
-                   Text="刷新公告" EventType="刷新公告" />
+                   Text="刷新公告" EventType="刷新主页" />
         <!--TextBlock Margin="0,6,0,0"
                    Text="卡片（local:MyCard）的 Title 属性决定了它的标题。&#xA;为卡片添加 CanSwap 属性让它可以被折叠，True 代表是，False 代表否。在此基础上，再使用 IsSwaped 属性调整它是否默认被折叠。" /-->
     </StackPanel>

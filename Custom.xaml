@@ -28,12 +28,14 @@
 		
         <local:MyHint Margin="0,8,0,2" IsWarn="False"
                    Text="若无法链接请更换DNS为&#xA;223.5.5.5或223.6.6.6" />
+	<StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,10,0,0">
 		<local:MyButton Margin="0,20,23,0" Width="100" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
                    Text="刷新公告" EventType="刷新主页" />
 		<local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
                    Text="QQ群讨论区" EventType="弹出窗口" EventData="MimiBlock|官方群聊:\n盗版1群:1038673611\n盗版2群:991241331\n正版群:577348155" />
 	        <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
                    Text="鸽子的老窝(" EventType="打开网页" EventData="https://space.bilibili.com/7497311" />
+	</StackPanel>
         <!--TextBlock Margin="0,6,0,0"
                    Text="卡片（local:MyCard）的 Title 属性决定了它的标题。&#xA;为卡片添加 CanSwap 属性让它可以被折叠，True 代表是，False 代表否。在此基础上，再使用 IsSwaped 属性调整它是否默认被折叠。" /-->
     </StackPanel>
